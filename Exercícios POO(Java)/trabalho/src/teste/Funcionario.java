@@ -3,13 +3,13 @@ package teste;
 import pacote_enum.Tipo_Salario;
 import pacote_interface.Tributos;
 
-public class Funcionario {
+public class Funcionario extends Pessoa implements Tributos{
 
-	private TipoSalario salarioBruto;
+	private Tipo_Salario salarioBruto;
 	private Dependente dependente;
 
-	public Funcionario(String nome, int cpf, int dataNascimento, TipoSalario salarioBruto, Dependente dependente) {
-		super(nome, cpf, dataNascimento);
+	public Funcionario(String nome, int cpf, int dataNascimento, Tipo_Salario salarioBruto, Dependente dependente) {
+		super(nome, dataNascimento, dataNascimento);
 		this.salarioBruto = salarioBruto;
 		this.dependente = dependente;
 	}
@@ -20,7 +20,7 @@ public class Funcionario {
 				+ cpf + ", dataNascimento=" + dataNascimento + "]";
 	}
 
-	public TipoSalario getSalarioBruto() {
+	public Tipo_Salario getSalarioBruto() {
 		return salarioBruto;
 	}
 
