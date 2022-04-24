@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="ufs.Lutador"><rhs name\="ufs.Lutador"/></lhs><lhs name\="ufs.Luta"><rhs name\="ufs.Luta"/></lhs><lhs name\="exercicio_oficina.Proprietario"><rhs name\="exercicio_oficina.Proprietario"/></lhs><lhs name\="exercicio_oficina.Veiculo"><rhs name\="exercicio_oficina.Carro"/></lhs><lhs name\="exercicio_oficina.Oficina"><rhs name\="exercicio_oficina.Carro"/></lhs><lhs name\="exercicio_oficina.Carro"><rhs name\="exercicio_oficina.Carro"/></lhs><lhs name\="exericicio_venda.Produto"><rhs name\="exericicio_venda.Produto"/></lhs><lhs name\="java.lang.Enum"><rhs name\="exericicio_venda.Categoria"/></lhs><lhs name\="exericicio_venda.Categoria"><rhs name\="exericicio_venda.Categoria"/></lhs><lhs name\="exericicio_venda.Finalizar_Venda"><rhs name\="exericicio_venda.Venda"/></lhs><lhs name\="exericicio_venda.Venda"><rhs name\="exericicio_venda.Venda"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="exercicio_time.Atleta"><rhs name\="exercicio_time.Atleta"/></lhs><lhs name\="exercicio_time.Time"><rhs name\="exercicio_time.Time"/></lhs><lhs name\="curso_em_video_2.Pessoa"><rhs name\="curso_em_video_2.Pessoa"/></lhs><lhs name\="curso_em_video_2.Publicacao"><rhs name\="curso_em_video_2.Livro"/></lhs><lhs name\="curso_em_video_2.Livro"><rhs name\="curso_em_video_2.Livro"/></lhs></history>
+content_assist_number_of_computers=12
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

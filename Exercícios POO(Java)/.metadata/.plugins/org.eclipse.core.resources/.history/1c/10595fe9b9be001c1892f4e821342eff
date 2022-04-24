@@ -1,0 +1,34 @@
+package ufs;
+
+public class TesteLutador {
+
+	public static void main(String[] args) {
+		Lutador l[] = new Lutador[6];//Declarei um vetor de 6 posições(0 à 5)
+		
+		l[0] = new Lutador("Fred", "Brasil", 38, 183, 82, 14, 1, 0);
+		l[1] = new Lutador("Germán Cano", "Argentina", 34, 175, 71, 14, 4, 1);
+		l[2] = new Lutador("Zlatan", "Suécia", 41, 195, 92, 9, 3, 2);
+		l[3] = new Lutador("Müller", "Alemanha", 34, 175, 74, 13, 4, 1);
+		l[4] = new Lutador("Pogba", "França", 27, 186, 87, 7, 1, 0);
+		l[5] = new Lutador("Haaland", "Noruega", 21, 195, 89, 6, 1, 1);
+		
+		
+		l[0].apresentar();
+		l[0].status();
+		l[1].apresentar();
+		l[1].status();
+		l[2].apresentar();
+		l[2].status();
+		l[3].apresentar();
+		l[3].status();
+		l[4].apresentar();
+		l[4].status();
+		l[5].apresentar();
+		l[5].status();
+		
+		Luta UFS = new Luta();
+		UFS.marcarLuta(l[2], l[4]);
+		UFS.lutar();
+	}
+
+}

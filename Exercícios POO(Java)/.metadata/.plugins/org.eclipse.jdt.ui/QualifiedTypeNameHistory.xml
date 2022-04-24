@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ufs.Lutador"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="ufs.Luta"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="exercicio_oficina.Proprietario"/>
+    <fullyQualifiedTypeName name="exercicio_oficina.Carro"/>
+    <fullyQualifiedTypeName name="exercicio_oficina.TipoServico"/>
+    <fullyQualifiedTypeName name="exericicio_venda.Produto"/>
+    <fullyQualifiedTypeName name="exericicio_venda.Categoria"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="exericicio_venda.Venda"/>
+    <fullyQualifiedTypeName name="exericicio_venda.Teste_Venda"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="cliente_arraylist.Cliente"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="exercicio_time.Atleta"/>
+    <fullyQualifiedTypeName name="exercicio_time.Time"/>
+    <fullyQualifiedTypeName name="curso_em_video_2.Pessoa"/>
+    <fullyQualifiedTypeName name="curso_em_video_2.Livro"/>
+</qualifiedTypeNameHistroy>

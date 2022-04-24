@@ -1,0 +1,32 @@
+package cliente_arraylist;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class TesteCliente extends Cliente {
+
+	public static void main(String[] args) {
+
+		ArrayList<Cliente> listaClientes = new ArrayList<>();
+		Cliente cliente = new Cliente();
+		listaClientes.add(cliente);
+		Scanner sc = new Scanner(System.in);
+
+		do {
+			System.out.println("Digite seu id: ");
+			sc.nextInt(cliente.getId());
+			System.out.println("Digite seu nome: ");
+			sc.next(cliente.getNome());
+			System.out.println("Digite sua idade: ");
+			sc.nextInt(cliente.getIdade());
+			System.out.println("Digite seu numero: ");
+			sc.next(cliente.getNumero());
+		} while (cliente.getId() >= 0);
+		
+			
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+package exercicio_divisao;
+
+public class CalcularDivisao {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 0;
+		int c = 0;
+		
+		try {
+			c = a / b;
+		} catch (Exception e) {
+			
+		}
+	}
+}

@@ -1,0 +1,17 @@
+package ufs;
+
+public class TesteLutador {
+
+	public static void main(String[] args) {
+		Lutador l[] = new Lutador[6];
+		
+		l[0] = new Lutador("Fred", "Brasil", 38, 183, 82, 14, 1, 0);
+		l[1] = new Lutador("Germán Cano", "Argentina", 34, 175, 71, 14, 4, 1);
+		
+		l[0].apresentar();
+		l[0].status();
+		l[1].apresentar();
+		l[1].status();
+	}
+
+}

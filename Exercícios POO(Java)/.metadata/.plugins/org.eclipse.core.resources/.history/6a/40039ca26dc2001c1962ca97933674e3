@@ -1,0 +1,19 @@
+package exercicio_time;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TesteAtleta {
+
+	public static void main(String[] args) {
+		@SuppressWarnings("unused")
+		ArrayList<Atleta> Atletas = new ArrayList();
+		
+		
+		
+		
+		
+
+	}
+
+}

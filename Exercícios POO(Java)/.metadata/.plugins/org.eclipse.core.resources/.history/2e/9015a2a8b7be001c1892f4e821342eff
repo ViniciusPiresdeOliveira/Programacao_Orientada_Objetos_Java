@@ -1,0 +1,58 @@
+package ufs;
+
+public class Luta {
+
+	//Tipo abstrato de dados ---> Lutador desafiante/desafiado
+	private Lutador desafiante;//Desafiante vai ser uma instância da classe Lutador/objeto de Lutador
+	private Lutador desafiado;//Desafiado vai ser uma instância da classe Lutador/objeto de Lutador
+	private int rounds;
+	private boolean aprovada;
+	
+	public Luta(Lutador desafiante, Lutador desafiado, int rounds, boolean aprovada) {
+		super();
+		this.desafiante = desafiante;
+		this.desafiado = desafiado;
+		this.rounds = rounds;
+		this.aprovada = aprovada;
+	}
+
+	public Lutador getDesafiante() {
+		return desafiante;
+	}
+
+	public void setDesafiante(Lutador desafiante) {
+		this.desafiante = desafiante;
+	}
+
+	public Lutador getDesafiado() {
+		return desafiado;
+	}
+
+	public void setDesafiado(Lutador desafiado) {
+		this.desafiado = desafiado;
+	}
+
+	public int getRounds() {
+		return rounds;
+	}
+
+	public void setRounds(int rounds) {
+		this.rounds = rounds;
+	}
+
+	public boolean getAprovada() {
+		return aprovada;
+	}
+
+	public void setAprovada(boolean aprovada) {
+		this.aprovada = aprovada;
+	}
+	
+	public void marcarLuta(l1, l2: Lutador) {
+		
+	}
+	
+	public void lutar() {
+		
+	}
+}

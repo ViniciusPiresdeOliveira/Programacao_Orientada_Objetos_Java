@@ -1,0 +1,14 @@
+package exercicio_oficina;
+
+import java.time.LocalDate;
+
+public class TesteOficina {
+
+	public static void main(String[] args) {
+
+		Proprietario p1 = new Proprietario("Fred");
+		LocalDate dt1 = new 
+		Carro c1 = new Carro("Golf", , null, p1, "Esportivo");
+	}
+
+}

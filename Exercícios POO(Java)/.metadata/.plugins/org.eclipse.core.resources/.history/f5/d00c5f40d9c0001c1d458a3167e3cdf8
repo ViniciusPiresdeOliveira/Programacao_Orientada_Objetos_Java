@@ -1,0 +1,6 @@
+package exericicio_venda;
+
+public enum Categoria {
+
+	ELETRONICO();
+}

@@ -1,0 +1,11 @@
+package exericicio_venda;
+
+public class Venda implements Finalizar_Venda {
+
+	@Override
+	public void calcularVenda() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

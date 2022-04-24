@@ -1,0 +1,21 @@
+package curso_em_video_2;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Pessoa [] p = new Pessoa[3];
+		Livro [] l = new Livro[3];
+		
+		p[0] = new Pessoa("Vinicius", 18, "Masculino");
+		p[1] = new Pessoa("Afonso", 78, "Masculino");
+		p[2] = new Pessoa("Cremilda", 89, "Feminino");
+		
+		l[0] = new Livro("Cabeça Fria, Coração Quente", "Abel Ferreira", 408, p[0]);
+		l[1] = new Livro("Eu Sou Zlatan", "Zlatan Ibrahimovic", 421, p[1]);
+		l[2] = new Livro("Pep Guardiola: A evolução", "Martí Perarnau ", 440, p[2]);
+		
+		
+	}
+
+}

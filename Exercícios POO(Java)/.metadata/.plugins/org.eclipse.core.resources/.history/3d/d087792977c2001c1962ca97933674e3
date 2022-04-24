@@ -1,0 +1,33 @@
+package exercicio_time;
+
+import java.util.ArrayList;
+
+public class TesteAtleta {
+
+	public static void main(String[] args) {
+		ArrayList<Atleta> listaAtletas = new ArrayList<Atleta>();
+		
+		listaAtletas.add(new Atleta("Fábio", 41, "Goleiro"));
+		listaAtletas.add(new Atleta("Calegari", 20, "Ala Direito"));
+		listaAtletas.add(new Atleta("Nino", 25, "Zagueiro"));
+		listaAtletas.add(new Atleta("Felipe Melo", 38, "Zagueiro"));
+		listaAtletas.add(new Atleta("David Braz", 34, "Zagueiro"));
+		listaAtletas.add(new Atleta("Cris Silva", 28, "Ala Esquerda"));
+		listaAtletas.add(new Atleta("André", 20, "1º volante"));
+		listaAtletas.add(new Atleta("Yago", 27, "2º volante"));
+		listaAtletas.add(new Atleta("Ganso", 32, "Meia"));
+		listaAtletas.add(new Atleta("Árias", 24, "Segundo Atacante"));
+		listaAtletas.add(new Atleta("Cano", 34, "Atacante"));
+		
+		Time time1 = new Time("Fluminense", "Mário Bittencourt", "Paulo Angioni", "Abel Braga", "Marcão", listaAtletas);
+		System.out.println(time1);
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

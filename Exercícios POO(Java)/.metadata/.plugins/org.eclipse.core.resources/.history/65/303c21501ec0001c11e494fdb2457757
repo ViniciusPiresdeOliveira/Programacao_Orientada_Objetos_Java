@@ -1,0 +1,15 @@
+package exercicio_oficina;
+
+import java.time.LocalDate;
+
+public class Veiculo {
+
+	protected String modelo;
+	protected double valorCobrado;
+	protected LocalDate dataConserto;
+	protected Proprietario proprietario;
+	
+	
+	
+	
+}

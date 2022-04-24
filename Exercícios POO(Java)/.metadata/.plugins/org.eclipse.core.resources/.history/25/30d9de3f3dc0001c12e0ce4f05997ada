@@ -1,0 +1,44 @@
+package exercicio_oficina;
+
+import java.time.LocalDate;
+
+public class Moto extends Veiculo {
+
+	private int cilindradas;
+
+	public Moto(String modelo, double valorCobrado, LocalDate dataConserto, Proprietario proprietario,
+			int cilindradas) {
+		super(modelo, valorCobrado, dataConserto, proprietario);
+		this.cilindradas = cilindradas;
+	}
+
+	@Override
+	public String toString() {
+		return "Moto [cilindradas=" + cilindradas + ", modelo=" + modelo + ", valorCobrado=" + valorCobrado
+				+ ", dataConserto=" + dataConserto + ", proprietario=" + proprietario + "]";
+	}
+
+	public int getCilindradas() {
+		return cilindradas;
+	}
+
+	@Override
+	public double lavarVeiculo() {
+		valorCobrado = 50;
+		return valorCobrado;
+	}
+
+	@Override
+	public double trocarOleo() {
+		valorCobrado = 100;
+		return valorCobrado;
+	}
+
+	@Override
+	public double revisao() {
+		valorCobrado = 200;
+		return valorCobrado;
+	}
+	
+	
+}
