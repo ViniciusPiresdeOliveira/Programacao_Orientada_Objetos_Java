@@ -1,22 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=aula-04-heranca/src&lt;br.com.senai.model{Veiculo.java[Veiculo" modifiers="1" timestamp="1649803228914"/>
-    <typeInfo handle="=aula-04-heranca/src&lt;br.com.senai.model{Medico.java[Medico" modifiers="1" timestamp="1649806156711"/>
-    <typeInfo handle="=aula-04-heranca/src&lt;Exercicios{ImpostoDeRenda.java[ImpostoDeRenda" modifiers="1" timestamp="1649876158814"/>
-    <typeInfo handle="=aula05-relacionamentos/src&lt;br.com.senai.model{Plano.java[Plano" modifiers="1" timestamp="1649886155381"/>
-    <typeInfo handle="=aula05-relacionamentos/src&lt;br.com.senai.model{Medico.java[Medico" modifiers="1" timestamp="1649886821031"/>
-    <typeInfo handle="=aula06-interfaces/src&lt;br.com.serratec.model{Assistente.java[Assistente" modifiers="1" timestamp="1650300042997"/>
-    <typeInfo handle="=aula06-interfaces/src&lt;br.com.serratec.model{Funcionario.java[Funcionario" modifiers="1025" timestamp="1650300010196"/>
-    <typeInfo handle="=aula06-interfaces/src&lt;br.com.serratec.model{Auxiliar.java[Auxiliar" modifiers="1025" timestamp="1649974635053"/>
-    <typeInfo handle="=aula06-interfaces/src&lt;br.com.serratec.model{Conta.java[Conta" modifiers="513" timestamp="1649975657803"/>
-    <typeInfo handle="=aula06-interfaces/src&lt;br.com.serratec.model{Taxas.java[Taxas" modifiers="513" timestamp="1650303435798"/>
-    <typeInfo handle="=aula06-interfaces/src&lt;br.com.serratec.model{ImpostoDeRenda.java[ImpostoDeRenda" modifiers="513" timestamp="1649976744658"/>
-    <typeInfo handle="=aula06-interfaces/src&lt;br.com.serratec.model{Pessoa.java[Pessoa" modifiers="1025" timestamp="1649979482220"/>
-    <typeInfo handle="=aula06-interfaces/src&lt;br.com.serratec.model{Tributos.java[Tributos" modifiers="513" timestamp="1649976884464"/>
-    <typeInfo handle="=aula07-enum/src&lt;org.serratec.constantes{Policial.java[Policial" modifiers="1" timestamp="1650318364371"/>
-    <typeInfo handle="=aula07-enum/src&lt;org.serratec.enumeradores{AnimalCompeticao.java[AnimalCompeticao" modifiers="513" timestamp="1650325292186"/>
-    <typeInfo handle="=aula07-enum/src&lt;org.serratec.enumeradores{Animal.java[Animal" modifiers="1025" timestamp="1650325751970"/>
-    <typeInfo handle="=aula07-enum/src&lt;org.serratec.enumeradores{Ave.java[Ave" modifiers="1025" timestamp="1650325874356"/>
-    <typeInfo handle="=aula07-enum/src&lt;org.serratec.enumeradores{Mamifero.java[Mamifero" modifiers="1025" timestamp="1650326776409"/>
-    <typeInfo handle="=aula07-enum/src&lt;org.serratec.enumeradores{Veiculo.java[Veiculo" modifiers="1025" timestamp="1650374640684"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
