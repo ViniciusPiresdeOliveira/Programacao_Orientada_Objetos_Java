@@ -1,0 +1,49 @@
+package org.serratec.constantes;
+
+public class Policial {
+
+	private String cpf;
+	private String nome;
+	private double salario;
+	private final String lotacao;
+	
+	public Policial(String cpf, String nome, double salario, String lotacao) {
+		super();
+		this.cpf = cpf;
+		this.nome = nome;
+		this.salario = salario;
+		this.lotacao = lotacao;
+	}
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getSalario() {
+		return salario;
+	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	
+	public String getLotacao() {
+		return lotacao;
+	}
+	
+	//Não pode ser sobrescrito(override)
+	public final String mostrarInformacoes() {
+		return nome + " " + cpf + " " + salario;
+	}
+}

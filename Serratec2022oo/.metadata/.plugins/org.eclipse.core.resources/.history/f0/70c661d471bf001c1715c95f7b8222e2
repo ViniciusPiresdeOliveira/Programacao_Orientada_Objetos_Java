@@ -1,0 +1,5 @@
+package org.serratec.enumeradores;
+
+public class Ave extends Animal {
+
+}

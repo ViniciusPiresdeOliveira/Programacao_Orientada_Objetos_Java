@@ -1,0 +1,5 @@
+package br.com.senai.exceptions;
+
+public class Exemplo3Exceptions {
+
+}

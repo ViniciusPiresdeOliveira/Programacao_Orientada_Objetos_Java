@@ -1,0 +1,16 @@
+
+public class Exemplo1Vetor {
+
+	public static void main(String[] args) {
+		
+		//String[] vetor = {"Celular", "TV", "Blu-Ray"};
+		//vetor[2] = "Aparelho de Som";
+		
+		String[][] funcionario = {{"Vinicius", "piresvinicius35@gmail.com"};
+								 {"João", "joaoahtomail"},
+								 {"Carla", "carlauol.com"}};
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class Exemplo1Vetor {
+
+	public static void main(String[] args) {
+		String[]vetor = new Vetor[5];
+
+	}
+
+}

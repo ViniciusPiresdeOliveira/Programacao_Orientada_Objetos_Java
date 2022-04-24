@@ -1,0 +1,70 @@
+package br.com.senai.exceptions;
+
+public class ContaCorrente implements Conta {
+	
+	private String numeroConta;
+	private String titular;
+	private double saldo;
+	
+	
+	
+	@Override
+	public String toString() {
+		return "ContaCorrente [numeroConta=" + numeroConta + ", titular=" + titular + ", saldo=" + saldo + "]";
+	}
+
+	
+	
+	public String getNumeroConta() {
+		return numeroConta;
+	}
+
+
+
+	public void setNumeroConta(String numeroConta) {
+		this.numeroConta = numeroConta;
+	}
+
+
+
+	public String getTitular() {
+		return titular;
+	}
+
+
+
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+
+
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+
+
+	@Override
+	public boolean saque(double valor) {
+		if (saldo <= valor ) {
+			throw new RuntimeException("Saldo insuficiente");
+		}
+		return true;
+	}
+
+	@Override
+	public boolean deposito(double valor) {
+		saldo += valor;
+		return true;
+	}
+	return false;
+}
+}
+

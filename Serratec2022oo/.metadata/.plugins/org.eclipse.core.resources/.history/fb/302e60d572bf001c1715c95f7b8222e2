@@ -1,0 +1,11 @@
+package org.serratec.enumeradores;
+
+public class Mamifero extends Animal {
+
+	@Override
+	public String emitirSom() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

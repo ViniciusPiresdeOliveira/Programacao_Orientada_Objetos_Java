@@ -1,0 +1,10 @@
+package org.serratec.constantes;
+
+public class TestePolicial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

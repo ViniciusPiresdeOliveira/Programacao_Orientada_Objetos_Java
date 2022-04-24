@@ -1,0 +1,29 @@
+package org.serratec.constantes;
+
+public class FuncionarioPublico {
+
+	private String nome;
+	private String cargo;
+	private final int ANO_CONCURSO;//constantes são com letra maiuscula
+	
+	public FuncionarioPublico(String nome, String cargo, int aNO_CONCURSO) {
+		super();
+		this.nome = nome;
+		this.cargo = cargo;
+		ANO_CONCURSO = aNO_CONCURSO;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getCargo() {
+		return cargo;
+	}
+
+	public int getANO_CONCURSO() {
+		return ANO_CONCURSO;
+	}
+	
+	
+}
