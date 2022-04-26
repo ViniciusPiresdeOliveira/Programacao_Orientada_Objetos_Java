@@ -14,10 +14,14 @@
     <fullyQualifiedTypeName name="exericicio_venda.Teste_Venda"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="cliente_arraylist.Cliente"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="exercicio_time.Atleta"/>
     <fullyQualifiedTypeName name="exercicio_time.Time"/>
     <fullyQualifiedTypeName name="curso_em_video_2.Pessoa"/>
     <fullyQualifiedTypeName name="curso_em_video_2.Livro"/>
     <fullyQualifiedTypeName name="pacote_enum.TipoParentesco"/>
+    <fullyQualifiedTypeName name="revisao.Livro"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="revisao.Biblioteca"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="exercicio_agenda.Agenda_Telefonica"/>
 </qualifiedTypeNameHistroy>

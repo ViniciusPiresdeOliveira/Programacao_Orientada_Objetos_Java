@@ -1,8 +1,0 @@
-package org.serratec.enumeradores;
-
-public enum PeriodoCurso {
-
-	INTEGRAL("Segunda a Sexta", 80, 3600),
-	NOTURNO("Terca e Quinta", 40, 1200), 
-	MANHA("Quarta e Sexta", 60, 2400);
-}

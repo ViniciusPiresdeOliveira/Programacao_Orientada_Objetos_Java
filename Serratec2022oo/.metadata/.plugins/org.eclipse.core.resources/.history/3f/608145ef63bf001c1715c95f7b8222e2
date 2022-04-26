@@ -1,9 +1,0 @@
-package org.serratec.enumeradores;
-
-public class MarcaCelular {
-	
-	private int tamanho;
-	private String modelo;
-	private Marca marca;
-
-}

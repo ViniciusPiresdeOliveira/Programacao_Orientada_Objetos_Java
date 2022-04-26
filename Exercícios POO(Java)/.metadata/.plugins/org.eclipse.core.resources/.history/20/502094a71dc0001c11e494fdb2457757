@@ -1,5 +1,0 @@
-package exercicio_oficina;
-
-public interface Oficina {
-
-}

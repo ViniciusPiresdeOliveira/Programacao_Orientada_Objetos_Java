@@ -1,5 +1,0 @@
-package org.serratec.enumeradores;
-
-public interface AnimalDomestico {
-
-}
