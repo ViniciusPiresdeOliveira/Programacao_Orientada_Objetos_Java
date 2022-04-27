@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Agenda_Telefonica<T> {
-	private HashMap<String, String> colecao = new HashMap<>();
+	private HashMap<String, String> colecao;
 
 	public void inserir(String nome, String numero) {
 		colecao.put(nome, numero);

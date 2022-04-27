@@ -12,7 +12,7 @@ public class Teste_Agenda {
 		colecao.put("Cano", "78945612");
 		colecao.put("Abel", "74126541");
 		System.out.println(colecao.get("José"));
-
+		System.out.println(colecao.get("Abel"));
 	}
 
 }

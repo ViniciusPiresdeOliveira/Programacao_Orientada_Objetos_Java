@@ -13,6 +13,8 @@ public class Exemplo6Gravacao {
 			bw.append("Serratec - Java");
 			bw.append("Olá Mundo");
 			bw.write("Teste");
+			//Uma das diferenças entre bw.appen e bw.write é que o 
+			//bw.appen aceita valor nulo e bw.write não.
 			bw.close();
 		} catch (IOException e) {
 			System.out.println("Arquivo encontrado");

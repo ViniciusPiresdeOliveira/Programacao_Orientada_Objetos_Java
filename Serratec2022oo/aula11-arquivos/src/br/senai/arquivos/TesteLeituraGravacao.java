@@ -19,20 +19,21 @@ public class TesteLeituraGravacao {
 			System.out.println("Digite o nome do arquivo:");
 			String nomeArquivo = sc.next();
 			File arquivo = new File(nomeArquivo);
-			
+
 			Scanner sc1 = new Scanner(arquivo);
 			while (sc1.hasNextLine()) {
 				String linha = sc1.nextLine();
-				if(!linha.isEmpty()) {
-					String [] dadosLinha = linha.split(";");
+				if (!linha.isEmpty()) {
+					String[] dadosLinha = linha.split(";");
 					String nome = dadosLinha[0];
 					String profissao = dadosLinha[1];
 					empregados.add(new Empregado(nome, profissao));
 				}
 			}
-			sc1.close();		
-			
-			FileWriter caminho = new FileWriter("/exemplos/saida.txt");
+			sc1.close();
+			//Caminho do arquivo
+			FileWriter caminho = new FileWriter("teste/saida.txt");
+			//Gravar o arquivo
 			PrintWriter gravar = new PrintWriter(caminho);
 			for (Empregado empregado : empregados) {
 				String linhaArquivo = empregado.getNome() + ";" + empregado.getProfissao() + "\n";
@@ -44,7 +45,6 @@ public class TesteLeituraGravacao {
 			System.out.println("Erro de leitura de gravação !!!");
 		}
 
-		
 	}
 
 }
