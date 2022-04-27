@@ -1,5 +1,0 @@
-package br.com.senai.exceptions;
-
-public interface Conta {
-
-}
