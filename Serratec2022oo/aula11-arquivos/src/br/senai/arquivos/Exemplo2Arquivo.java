@@ -9,12 +9,11 @@ public class Exemplo2Arquivo {
 
 	public static void main(String[] args) {
 		
-		
 		try {
-			Scanner sc = new Scanner(new File("c:\\exemplos\\exercicio.txt"));
+			Scanner sc = new Scanner(new File("c:\\exemplos\\exercicio2.txt"));
 			sc.useDelimiter(";");
 			while (sc.hasNext()) {
-				System.out.println(sc.next());
+				System.out.println(sc.nextLine());
 			}
 			sc.close();
 		} catch (FileNotFoundException e) {
