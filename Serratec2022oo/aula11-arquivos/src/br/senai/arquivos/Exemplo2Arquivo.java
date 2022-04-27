@@ -10,7 +10,7 @@ public class Exemplo2Arquivo {
 	public static void main(String[] args) {
 		
 		try {
-			Scanner sc = new Scanner(new File("c:\\exemplos\\exercicio2.txt"));
+			Scanner sc = new Scanner(new File("teste\\exercicio2.txt"));
 			sc.useDelimiter(";");
 			while (sc.hasNext()) {
 				System.out.println(sc.nextLine());

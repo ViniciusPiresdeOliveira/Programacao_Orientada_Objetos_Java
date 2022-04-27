@@ -1,0 +1,5 @@
+Osvaldo;Auxiliar
+Mariana;Engenheira
+Marcos;Eletricista
+Jorge;Assistente
+Pedro;Analista
