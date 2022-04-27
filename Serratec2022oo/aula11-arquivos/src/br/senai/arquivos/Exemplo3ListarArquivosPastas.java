@@ -8,7 +8,7 @@ public class Exemplo3ListarArquivosPastas {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite o arquivo ou diretório: ");
-		String nome = sc.next();
+		String nome = sc.nextLine();
 		File file = new File(nome);
 		if(file.exists()) {
 			if(file.isFile()) {

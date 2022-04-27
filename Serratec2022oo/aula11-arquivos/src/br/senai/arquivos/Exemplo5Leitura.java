@@ -10,7 +10,7 @@ public class Exemplo5Leitura {
 
 	public static void main(String[] args) {
 		try {
-			Scanner sc = new Scanner(new InputStreamReader(new FileInputStream("c:\\exemplos\\exercicio.txt"),"UTF-8"));
+			Scanner sc = new Scanner(new InputStreamReader(new FileInputStream("teste\\\\exercicio2.txt"),"UTF-8"));
 			while (sc.hasNext()) {
 				System.out.println(sc.nextLine());
 			}

@@ -9,7 +9,7 @@ public class Exemplo1Arquivo {
 
 	public static void main(String[] args) {
 		
-		File arquivo = new File("teste\\exercicio.txt");
+		File arquivo = new File("teste\\exercicio1.txt");
 		try {
 			Scanner sc = new Scanner(arquivo);
 			while (sc.hasNext()) {
