@@ -16,6 +16,7 @@ public class ConnectionFactory {
 		System.out.println("Conectando ao banco de dados!");
 		try {
 			connection = DriverManager.getConnection(urlConexao, usuario, senha);
+			System.out.println("Conectado ");
 			if (connection == null) {
 				System.out.println("Não foi possível conectar");
 			} else {
