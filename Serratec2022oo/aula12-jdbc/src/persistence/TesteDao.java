@@ -1,4 +1,4 @@
-package persistencer;
+package persistence;
 
 import model.Cliente;
 
@@ -16,7 +16,7 @@ public class TesteDao {
 		//System.out.println(dao.listar());
 		/*for (Cliente cliente : dao.listar()) {
 			//System.out.println(cliente);*/
-		;
+		
 		System.out.println(dao.buscar(4));
 		
 	
