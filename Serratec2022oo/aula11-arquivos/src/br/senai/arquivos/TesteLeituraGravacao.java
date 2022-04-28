@@ -32,7 +32,7 @@ public class TesteLeituraGravacao {
 			}
 			sc1.close();
 			//Caminho do arquivo
-			FileWriter caminho = new FileWriter("teste/saida.txt");
+			FileWriter caminho = new FileWriter("teste/saida2.txt");
 			//Gravar o arquivo
 			PrintWriter gravar = new PrintWriter(caminho);
 			for (Empregado empregado : empregados) {

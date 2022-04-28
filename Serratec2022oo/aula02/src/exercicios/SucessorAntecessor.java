@@ -9,7 +9,7 @@ public class SucessorAntecessor {
 		//e imprima o seu antecessor e seu sucessor.
 		
 		String num1 = JOptionPane.showInputDialog("Digite um número: ");
-		Double n1 = Double.parseDouble(num1);
+		int n1 = Integer.parseInt(num1);
 		JOptionPane.showInternalMessageDialog(null, "O antecessor do número " + n1 + " é " +(n1-1) + " e o sucessor é " + (n1+1));                                 
 	
 	}
