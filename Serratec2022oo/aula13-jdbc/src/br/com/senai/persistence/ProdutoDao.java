@@ -13,10 +13,10 @@ public class ProdutoDao implements ProdutoImplements {
 
 	private Connection connection;
 
-	public ProdutoDao() {
+	/*public ProdutoDao() {
 		connection = ConnectionFactorySingleton.getConnection();
 		
-	}
+	}*/
 	//Exemplo usado para explicar as transações de banco de dados
 	public ProdutoDao(Connection connection) {
 		super();
@@ -87,7 +87,7 @@ public class ProdutoDao implements ProdutoImplements {
 			stmt.setInt(4, produto.getQuantidadeEstoque());
 			stmt.execute();
 			stmt.close();
-			connection.close();
+			//connection.close();
 		} catch (Exception e) {
 			System.out.println("Erro ao gravar registro de produto !");
 			e.printStackTrace();

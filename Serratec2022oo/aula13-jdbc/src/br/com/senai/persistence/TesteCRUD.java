@@ -18,12 +18,12 @@ public class TesteCRUD {
 		//ProdutoDao dao = new ProdutoDao();
 		//dao.inserir(produto);
 		//dao.remover(9);
-		Produto produto = new Produto(8, "Biscoito", "Trakinas", 2.0, 140);
-		ProdutoDao dao = new ProdutoDao();
+	    //Produto produto = new Produto(8, "Biscoito", "Trakinas", 2.0, 140);
+		//ProdutoDao dao = new ProdutoDao();
 		//dao.atualizar(produto);
 		//System.out.println(dao.listar());
 		//System.out.println(dao.buscar(10));
-		System.out.println(dao.buscaPorNome("m"));
+		//System.out.println(dao.buscaPorNome("m"));
 		
 	}
 
