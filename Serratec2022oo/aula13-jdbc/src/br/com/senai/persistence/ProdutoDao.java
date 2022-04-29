@@ -13,10 +13,10 @@ public class ProdutoDao implements ProdutoImplements {
 
 	private Connection connection;
 
-	/*public ProdutoDao() {
+	public ProdutoDao() {
 		connection = ConnectionFactorySingleton.getConnection();
 		
-	}*/
+	}
 	//Exemplo usado para explicar as transações de banco de dados
 	public ProdutoDao(Connection connection) {
 		super();
@@ -31,8 +31,7 @@ public class ProdutoDao implements ProdutoImplements {
 			PreparedStatement stmt = connection.prepareStatement(sql);
 			ResultSet rs = stmt.executeQuery();
 			while (rs.next()) {
-				Produto produto = new Produto(rs.getInt("codigo_produto"), rs.getString("nome"),
-						rs.getString("descricao"), rs.getDouble("preco"), rs.getInt("quantidade_estoque"));
+				Produto produto = new Produto(rs.getInt("codigo_produto"), rs.getString("nome"),rs.getString("descricao"), rs.getDouble("preco"), rs.getInt("quantidade_estoque"));
 				produtos.add(produto);
 			}
 			stmt.close();
@@ -52,11 +51,7 @@ public class ProdutoDao implements ProdutoImplements {
 			stmt.setInt(1, codigo);
 			ResultSet rs = stmt.executeQuery();
 			if (rs.next()) {
-				produto = new Produto(rs.getInt("codigo_produto"), 
-						  					  rs.getString("nome"), 
-						  					  rs.getString("descricao"), 
-						  					  rs.getDouble("preco"),
-						  					  rs.getInt("quantidade_estoque"));
+				produto = new Produto(rs.getInt("codigo_produto"),  rs.getString("nome"),  rs.getString("descricao"),  rs.getDouble("preco"), rs.getInt("quantidade_estoque"));
 			}
 			stmt.close();
 			connection.close();
@@ -122,7 +117,7 @@ public class ProdutoDao implements ProdutoImplements {
 
 	@Override
 	public List<Produto> buscaPorNome(String nome) {
-		String sql = "select * from produto where nome like '" + nome + "%'";
+		String sql = "select * from produto where nome ilike '" + nome + "%'";
 		List<Produto> produtos = new ArrayList<>();
 		try {
 			PreparedStatement stmt = connection.prepareStatement(sql);
