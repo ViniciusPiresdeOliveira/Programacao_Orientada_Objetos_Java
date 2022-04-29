@@ -57,7 +57,7 @@
     <fullyQualifiedTypeName name="persistencer.ClienteDao"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="model.Cliente"/>
-    <fullyQualifiedTypeName name="br.com.senai.persistence.ProdutoDao"/>
-    <fullyQualifiedTypeName name="br.com.senai.model.Produto"/>
     <fullyQualifiedTypeName name="br.com.senai.persistence.ConnectionFactorySingleton"/>
+    <fullyQualifiedTypeName name="br.com.senai.model.Produto"/>
+    <fullyQualifiedTypeName name="br.com.senai.persistence.ProdutoDao"/>
 </qualifiedTypeNameHistroy>
