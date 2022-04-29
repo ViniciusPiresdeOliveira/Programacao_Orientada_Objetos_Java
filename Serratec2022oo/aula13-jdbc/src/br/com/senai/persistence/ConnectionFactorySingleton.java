@@ -2,6 +2,7 @@ package br.com.senai.persistence;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class ConnectionFactorySingleton {
     private static String urlConexao="jdbc:postgresql://localhost:5432/testebd";
@@ -13,7 +14,7 @@ public class ConnectionFactorySingleton {
         try {
             connection = DriverManager.getConnection(urlConexao, usuario, senha);
             System.out.println("Conectado com sucesso!");
-        } catch (Exception e) {
+        } catch (SQLException e) {
             System.out.println("Não foi possível conectar!");
         }
         return connection;

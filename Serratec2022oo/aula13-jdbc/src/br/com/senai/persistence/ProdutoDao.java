@@ -2,6 +2,8 @@ package br.com.senai.persistence;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
 import java.util.List;
 
 import br.com.senai.interfaces.ProdutoImplements;
@@ -11,22 +13,58 @@ public class ProdutoDao implements ProdutoImplements {
 
 	private Connection connection;
 
-	public ProdutoDao() {
+	/*public ProdutoDao() {
 		connection = ConnectionFactorySingleton.getConnection();
+		
+	}*/
+	//Exemplo usado para explicar as transações de banco de dados
+	public ProdutoDao(Connection connection) {
+		super();
+		this.connection = connection;
 	}
 
 	@Override
 	public List<Produto> listar() {
-		// TODO Auto-generated method stub
-		return null;
+		List<Produto> produtos = new ArrayList<>();
+		try {
+			String sql = "select * from produto";
+			PreparedStatement stmt = connection.prepareStatement(sql);
+			ResultSet rs = stmt.executeQuery();
+			while (rs.next()) {
+				Produto produto = new Produto(rs.getInt("codigo_produto"), rs.getString("nome"),
+						rs.getString("descricao"), rs.getDouble("preco"), rs.getInt("quantidade_estoque"));
+				produtos.add(produto);
+			}
+			stmt.close();
+			connection.close();
+		} catch (Exception e) {
+			System.out.println("Erro ao listar");
+		}
+		return produtos;
 	}
 
 	@Override
 	public Produto buscar(int codigo) {
-		// TODO Auto-generated method stub
-		return null;
+		String sql = "select * from produto where codigo_produto=?";
+		Produto produto = null;
+		try {
+			PreparedStatement stmt = connection.prepareStatement(sql);
+			stmt.setInt(1, codigo);
+			ResultSet rs = stmt.executeQuery();
+			if (rs.next()) {
+				produto = new Produto(rs.getInt("codigo_produto"), 
+						  					  rs.getString("nome"), 
+						  					  rs.getString("descricao"), 
+						  					  rs.getDouble("preco"),
+						  					  rs.getInt("quantidade_estoque"));
+			}
+			stmt.close();
+			connection.close();
+		} catch (Exception e) {
+			System.out.println("Erro ao buscar");
+		}
+		return produto;
 	}
-
 	@Override
 	public void remover(int codigo) {
 		try {
@@ -83,9 +121,24 @@ public class ProdutoDao implements ProdutoImplements {
 	}
 
 	@Override
-	public String buscaPorNome(String nome) {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Produto> buscaPorNome(String nome) {
+		String sql = "select * from produto where nome like '" + nome + "%'";
+		List<Produto> produtos = new ArrayList<>();
+		try {
+			PreparedStatement stmt = connection.prepareStatement(sql);
+			ResultSet rs = stmt.executeQuery();
+			while (rs.next()) {
+				Produto produto = new Produto(rs.getInt("codigo_produto"), rs.getString("nome"),
+						rs.getString("descricao"), rs.getDouble("preco"), rs.getInt("quantidade_estoque"));
+				produtos.add(produto);
+			}
+			stmt.close();
+			connection.close();
+		} catch (Exception e) {
+			System.out.println("Erro ao listar");
+		}
+		return produtos;
+
 	}
 
 }

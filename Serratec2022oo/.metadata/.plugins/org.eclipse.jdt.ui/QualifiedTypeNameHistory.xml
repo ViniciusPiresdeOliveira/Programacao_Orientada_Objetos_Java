@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.serratec.constantes.Policial"/>
-    <fullyQualifiedTypeName name="org.serratec.constantes.FuncionarioPublico"/>
-    <fullyQualifiedTypeName name="org.serratec.enumeradores.MarcaCelular"/>
     <fullyQualifiedTypeName name="org.serratec.enumeradores.Marca"/>
     <fullyQualifiedTypeName name="org.serratec.enumeradores.PeriodoCurso"/>
     <fullyQualifiedTypeName name="org.serratec.enumeradores.Turma"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="persistencer.ClienteDao"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="model.Cliente"/>
+    <fullyQualifiedTypeName name="br.com.senai.persistence.ProdutoDao"/>
+    <fullyQualifiedTypeName name="br.com.senai.model.Produto"/>
+    <fullyQualifiedTypeName name="br.com.senai.persistence.ConnectionFactorySingleton"/>
 </qualifiedTypeNameHistroy>
