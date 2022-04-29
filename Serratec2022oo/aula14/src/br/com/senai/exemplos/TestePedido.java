@@ -10,11 +10,11 @@ public class TestePedido {
 		
 		System.out.println("==========================");
 		System.out.println("+++++ Classe Anônima +++++");
+		
 		Pedido pedido2 = new Pedido() {
 			@Override
 			public void finalizarPedido() {
-				System.out.println("Pedido encerrado");
-				
+				System.out.println("Pedido encerrado");			
 			}
 		};
 		
