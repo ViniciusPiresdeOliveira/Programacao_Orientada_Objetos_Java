@@ -16,7 +16,7 @@ public class ExemploMap {
 		System.out.println("Lista com String para Double");
 		List<String> numeros2 = Arrays.asList("90.0", "10.5", "30.5", "40.5", "32.5");
 		List<Double> numeros3 = numeros2.stream().map(n -> new Double(n)).collect(Collectors.toList());
-		numeros3.forEach(p -> System.out.println(p));
+		numeros3.forEach(p -> System.out.println(p)); 
 	}
 
 }
