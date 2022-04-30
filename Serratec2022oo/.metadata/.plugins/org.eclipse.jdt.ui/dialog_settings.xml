@@ -148,4 +148,116 @@
 		<item key="DIALOG_HEIGHT" value="594"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
+	<section name="FatJarPackageWizard">
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo"/>
+		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="2"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="ExemploSerializacao - aula14"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="C:\exemplos\exemplo.jar"/>
+		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\exemplos\exemplo.jar"/>
+		</list>
+		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value=".xml"/>
+		</list>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item key="DIALOG_X_ORIGIN" value="41"/>
+		<item key="DIALOG_Y_ORIGIN" value="-6"/>
+		<item key="DIALOG_WIDTH" value="616"/>
+		<item key="DIALOG_HEIGHT" value="567"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="C:\Program Files\Java\jdk-11.0.13\bin\javadoc.exe"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="public"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="11"/>
+		<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula14\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula14\doc"/>
+		<section name="projects">
+			<section name="aula14">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula14\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula14\javadoc.xml"/>
+			</section>
+			<section name="aula01">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula01\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula01\javadoc.xml"/>
+			</section>
+			<section name="aula04-heranca">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula04-heranca\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula04-heranca\javadoc.xml"/>
+			</section>
+			<section name="aula11-arquivos">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula11-arquivos\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula11-arquivos\javadoc.xml"/>
+			</section>
+			<section name="aula09-listas">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula09-listas\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula09-listas\javadoc.xml"/>
+			</section>
+			<section name="aula06-interfaces">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula06-interfaces\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula06-interfaces\javadoc.xml"/>
+			</section>
+			<section name="aula05-relacionamentos">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula05-relacionamentos\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula05-relacionamentos\javadoc.xml"/>
+			</section>
+			<section name="aula08-excecoes">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula08-excecoes\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula08-excecoes\javadoc.xml"/>
+			</section>
+			<section name="aula02">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula02\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula02\javadoc.xml"/>
+			</section>
+			<section name="aula07-enum-">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula07-enum-\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula07-enum-\javadoc.xml"/>
+			</section>
+			<section name="aula13-jdbc">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula13-jdbc\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula13-jdbc\javadoc.xml"/>
+			</section>
+			<section name="aula03-modificadores-construtor">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula03-modificadores-construtor\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula03-modificadores-construtor\javadoc.xml"/>
+			</section>
+			<section name="aula10-generics-maps">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula10-generics-maps\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula10-generics-maps\javadoc.xml"/>
+			</section>
+			<section name="aula12-jdbc">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula12-jdbc\doc"/>
+				<item key="antpath" value="C:\Users\RESIDENCIA\Documents\GitHub(POO - Java)\Serratec2022oo\aula12-jdbc\javadoc.xml"/>
+			</section>
+		</section>
+	</section>
 </section>

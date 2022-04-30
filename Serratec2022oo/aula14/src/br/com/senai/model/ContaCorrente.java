@@ -14,6 +14,7 @@ public class ContaCorrente implements Conta {
 	public void investimento() {
 		System.out.println("Investimento em CDB realizado com sucesso !");
 	}
+	
 	public static void main(String[] args) {
 		Conta conta = new ContaCorrente();
 		conta.investimento();
