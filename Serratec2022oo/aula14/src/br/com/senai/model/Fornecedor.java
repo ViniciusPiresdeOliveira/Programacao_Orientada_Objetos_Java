@@ -2,6 +2,7 @@ package br.com.senai.model;
 
 import java.io.Serializable;
 import java.util.Objects;
+
 /**
  * 
  * @author RESIDENCIA
@@ -10,7 +11,7 @@ import java.util.Objects;
  * 
  *
  */
-public class Fornecedor implements Serializable{
+public class Fornecedor implements Serializable {
 	/**
 	 * 
 	 */
@@ -19,7 +20,7 @@ public class Fornecedor implements Serializable{
 	private String nome;
 	private String email;
 	private Double comissao;
-	
+
 	public Fornecedor(String cnpj, String nome, String email, Double comissao) {
 		super();
 		this.cnpj = cnpj;
@@ -27,32 +28,36 @@ public class Fornecedor implements Serializable{
 		this.email = email;
 		this.comissao = comissao;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "\nFornecedor [cnpj=" + cnpj + ", nome=" + nome + ", email=" + email + ", comissao=" + comissao + "]";
+		return "\n---------------------- Fornecedor---------------------- " + "\nNome: " + nome + "\nCNPJ: " + cnpj
+				+ "\nEmail: " + email + "\nComissão: " + comissao;
 	}
+
 	/**
 	 * 
-	 * @return
-	 * Retorna o cnpj do Cliente
+	 * @return Retorna o cnpj do Cliente
 	 */
 	public String getCnpj() {
 		return cnpj;
 	}
+
 	public String getNome() {
 		return nome;
 	}
+
 	public String getEmail() {
 		return email;
 	}
+
 	public Double getComissao() {
 		return comissao;
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(cnpj, comissao, email, nome);
+		return Objects.hash(cnpj);
 	}
 
 	@Override
@@ -64,12 +69,13 @@ public class Fornecedor implements Serializable{
 		if (getClass() != obj.getClass())
 			return false;
 		Fornecedor other = (Fornecedor) obj;
-		return Objects.equals(cnpj, other.cnpj) && Objects.equals(comissao, other.comissao)
-				&& Objects.equals(email, other.email) && Objects.equals(nome, other.nome);
+		return Objects.equals(cnpj, other.cnpj);
 	}
-	
-	/** Método criado para calcular o pagamento dos fornecedores.
-	 * Na fórmula de cálculo deverá ser acrescida a comissão.
+
+	/**
+	 * Método criado para calcular o pagamento dos fornecedores. Na fórmula de
+	 * cálculo deverá ser acrescida a comissão.
+	 * 
 	 * @author RESIDENCIA
 	 * @since 29/04/2022
 	 * @param valor recebe o valor de entrada do pagamento
@@ -77,16 +83,18 @@ public class Fornecedor implements Serializable{
 	 * @throws caso o valor for negativo o método deverá lançarr uma execeção
 	 * 
 	 */
-	public Double calcularPagamento(double valor) throws IllegalArgumentException{
+	public Double calcularPagamento(double valor) throws IllegalArgumentException {
 		return 0.0;
 	}
+
 	/**
 	 * Este método imprime uma listagem de todos os fornecedores
+	 * 
 	 * @author RESIDENCIA
 	 * @since 39/04/2022
 	 *
 	 */
 	public void listarFornecedores(double valor) {
-		
+
 	}
 }
