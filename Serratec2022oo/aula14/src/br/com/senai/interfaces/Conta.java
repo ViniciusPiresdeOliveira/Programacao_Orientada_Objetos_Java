@@ -1,6 +1,6 @@
 package br.com.senai.interfaces;
 
-@FunctionalInterface
+@FunctionalInterface//Essa Interface só tem 1 método abstrato
 public interface Conta {
 
 	public void transacao();

@@ -8,13 +8,15 @@ public class TesteConta {
 		
 		Conta conta = new Conta() {
 			@Override
-			/*Classe Anônima*/public void transacao() {
+			/*Classe Anônima*/
+			public void transacao() {
 				System.out.println("Transação efetuada com sucesso !!");
 				
 			}
 			
 		};
-		/*Lambda*/Conta conta2 = () -> System.out.println("Transação efetuada !");
+		/*Lambda*/
+		Conta conta2 = () -> System.out.println("Transação efetuada !");
 		
 		conta.transacao();
 		conta2.transacao();
