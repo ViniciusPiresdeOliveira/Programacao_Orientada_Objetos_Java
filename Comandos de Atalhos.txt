@@ -1,0 +1,46 @@
+(CTRL + S) = Salvar 
+
+(CTRL + F11) = Roda o programa
+
+(CTRL + SHIFT + F) = Indentar/Alinhar/Ajustar o código
+
+(CTRL + SHIFT + O) = Importar recurso de outro pacote
+
+(CTRL + D) = Apaga a linha em que o cursor está
+
+(CTRL + F) = Pesquisar e/ou substituir algo do código
+
+(CTRL + M) = Colocar a janela em toda tela do Eclipse
+
+(CTRL + W) = Fecha a janela atual 
+
+(CTRL + E) = Exibe um caixa de diálogo para busca de uma classe
+
+(CTRL + Q) = O cursor vai para o local da última edição.
+
+(CTRL + SHIFT + W) = Fecha todas as janelas
+
+(CTRL + Page Down) = Entra na próxima aba
+
+(CTRL + Page Up) = Entra na aba anterior
+
+(CTRL + Delete) = Apaga a instrução da direita na linha em que o cursor está
+
+(CTRL + 1) = Realiza correções automaticamente
+
+(CTRL + Backspace) = Apaga a instrução da esquerda na linha em que o cursor está
+
+(ALT + Seta pra cima) = Leva a linha em que o cursor está para cima
+
+(ALT + Seta pra baixo) = Leva a linha em que o cursor está para baixo
+
+(ALT + SHIFT + R) e Delete = Renomear uma variável
+
+(ALT + SHIFT + A) = Irá acionar uma opção em que teremos que selecionar
+blocos do código para adicionarmos o valor desejado ao mesmo tempo em todas
+as opções selecionadas
+
+Digitar main(e pressionar CTRL + espaço) = public static void main(String[] args)
+
+Digitar syso(e pressionar CTRL + espaço) = System.out.println();
+
