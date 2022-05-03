@@ -15,7 +15,7 @@ public class Funcionario {
 
 	@Override
 	public String toString() {
-		return "Funcionario [nome=" + nome + ", cargo=" + cargo + ", salario=" + salario + "]";
+		return "------------- Funcionario ------------- \n" + "Nome: " + nome + " || Cargo: " + cargo + " || Salário=" + salario;
 	}
 
 	public String getNome() {
