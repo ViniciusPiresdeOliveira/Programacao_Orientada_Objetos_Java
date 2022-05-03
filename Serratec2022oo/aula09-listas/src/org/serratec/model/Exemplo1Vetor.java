@@ -12,8 +12,8 @@ public class Exemplo1Vetor {
 		//vetor[2] = "Aparelho de Som";//Vetor 2 vai deixar de ser Blu-Ray e passará a ser Aparelho de Som
 		
 		String[][] funcionario = {{"Vinicius", "piresvinicius35@gmail.com"},
-								 {"João", "joaoahtomail"},
-								 {"Carla", "carlauol.com"}};
+								 {"João", "joao@hotomail"},
+								 {"Carla", "carla@uol.com"}};
 		
 		//ou
 		/*String[][] funcionario = new String[3][2];
