@@ -25,7 +25,7 @@ public class Exemplo1Vetor {
 		funcionario[2][1] = "carlauol.com";*/
 		
 		for (int linha = 0; linha < funcionario.length; linha++) {
-			for (int coluna = 0; coluna < funcionario[linha].length; coluna++) {//funcionario[linha].length -> está pegando o índice da linha, que neste caso é 2
+			for (int coluna = 0; coluna < funcionario[linha].length; coluna++) {//funcionario[linha].length -> pega o tamanho do vetor[2] e adiciona mais 1 = [3]
 				System.out.printf(funcionario[linha][coluna] + "|");
 			}
 				System.out.printf("\n");
